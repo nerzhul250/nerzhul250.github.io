@@ -10,7 +10,7 @@ Lo que se ha realizado:
 * Por cada dependencia, permite ver su nombre, coordinador y el nombre y apellido de sus usuarios en la vista detallada
 * Se puede realizar busqueda de usuarios por cualquiera de sus campos
 * Se guarda la contraseña en firebase usando md5
-* Permite agregar, eliminar y editar usuarios con los siguientes campos: nombre, apellido, email, valido_hasta, dependencia, activo (la contraseña por defecto es 123456). 
+* Permite agregar, eliminar y editar usuarios con los siguientes campos: nombre, apellido, email, valido_hasta, dependencia (Se muestran las dependencias existentes), activo (la contraseña por defecto es 123456). 
 * Permite agregar, eliminar y editar dependencias con los siguientes campos  nombre, coordinador, máximo número de usuarios, ubicación, activa(boolean). Cuando se requiere eliminar una dependencia, se checkea si no hay ningun usuario asociado a ella
 * Se utiliza vuefire para mantener sincronizada las colecciones.
 
